@@ -18,3 +18,7 @@ gem "jquery-rails"
 
 gem 'coveralls', :require => false
 
+gem 'debugger'
+
+gem 'factory_girl_rails'
+
