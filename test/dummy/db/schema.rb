@@ -19,10 +19,13 @@ ActiveRecord::Schema.define(:version => 20131027192834) do
   end
 
   create_table "widgets", :force => true do |t|
-    t.integer  "manufacturer_id"
-    t.string   "name"
-    t.datetime "created_at",      :null => false
-    t.datetime "updated_at",      :null => false
+    t.string   "address"
+    t.date     "birthdate"
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "preferred_name"
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
   end
 
 end

@@ -5,5 +5,5 @@ rvm:
 env:
   - DB=sqlite
 script:
-  - pushd test/dummy/ && RAILS_ENV=test bundle exec rake --trace db:migrate && popd && rake test
+  - pushd test/dummy/ && RAILS_ENV=test bundle exec rake --trace db:reset && popd && rake test
 

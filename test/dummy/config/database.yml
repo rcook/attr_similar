@@ -5,6 +5,9 @@ default: &default
   timeout: 5000
   host: localhost
 
+development:
+  <<: *default
+
 test:
   <<: *default
 
