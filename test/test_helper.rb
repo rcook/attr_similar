@@ -17,7 +17,14 @@ if ActiveSupport::TestCase.method_defined?(:fixture_path=)
   ActiveSupport::TestCase.fixture_path = File.expand_path("../fixtures", __FILE__)
 end
 
+module TestHelper
+  def self.random_date
+    Date.today - 10000 * rand
+  end
+end
+
 class ActiveSupport::TestCase
   include FactoryGirl::Syntax::Methods
+  include TestHelper
 end
 
