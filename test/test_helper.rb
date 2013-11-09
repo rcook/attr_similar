@@ -18,7 +18,9 @@ if ActiveSupport::TestCase.method_defined?(:fixture_path=)
 end
 
 module TestHelper
-  def self.random_date
+  extend self
+
+  def random_date
     Date.today - 10000 * rand
   end
 end
