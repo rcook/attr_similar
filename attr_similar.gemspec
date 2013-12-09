@@ -17,6 +17,5 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
   s.homepage = 'https://github.com/rcook/attr_similar/'
   s.add_dependency 'rails', '~> 3.2.14'
-  s.add_development_dependency 'sqlite3'
 end
 

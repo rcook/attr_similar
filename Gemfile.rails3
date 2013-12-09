@@ -16,4 +16,5 @@ gem 'jquery-rails'
 gem 'debugger'
 gem 'coveralls', :require => false
 gem 'factory_girl_rails'
+gem 'sqlite3'
 
