@@ -6,6 +6,10 @@
 
 Rails plugin that provides `attr_similar` helper to declare similarity-matching attributes on a model.
 
+# Rails support
+
+Works with Rails 3.2.x and Rails 4.0.x.
+
 # Installation
 
 Add `gem 'attr_similar'` to your Rails' `Gemfile` and run `bundle install`.
