@@ -14,7 +14,6 @@ module TestUtils
   end
 
   def dummy_app_dir
-=begin
     major_version = if rails_version_in_range?('3.2.0', '4.0.0')
       '3'
     elsif rails_version_in_range?('4.0.0', '5.0.0')
@@ -23,8 +22,6 @@ module TestUtils
       raise "Unsupported Rails version #{TestUtils.rails_version}"
     end
     "dummy-rails#{major_version}"
-=end
-    'dummy'
   end
 end
 

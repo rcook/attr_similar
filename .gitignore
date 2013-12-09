@@ -3,7 +3,8 @@
 coverage/
 log/*.log
 pkg/
-test/dummy/db/*.sqlite3
-test/dummy/log/*.log
-test/dummy/tmp/
-test/dummy/.sass-cache
+test/dummy-rails3/db/*.sqlite3
+test/dummy-rails3/log/*.log
+test/dummy-rails3/tmp/
+test/dummy-rails3/.sass-cache
+
