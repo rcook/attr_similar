@@ -4,7 +4,7 @@
 [![Build status](https://travis-ci.org/rcook/attr_similar.png)](https://travis-ci.org/rcook/attr_similar)
 [![Coverage status](https://coveralls.io/repos/rcook/attr_similar/badge.png?branch=master)](https://coveralls.io/r/rcook/attr_similar)
 
-Rails plugin that provides `attr_similar` helper to declare similarity-matching attributes on a model'
+Rails plugin that provides `attr_similar` helper to declare similarity-matching attributes on a model.
 
 # Installation
 
