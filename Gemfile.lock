@@ -43,12 +43,12 @@ GEM
       simplecov (>= 0.7)
       term-ansicolor
       thor
-    debugger (1.6.1)
+    debugger (1.6.3)
       columnize (>= 0.3.1)
       debugger-linecache (~> 1.2.0)
-      debugger-ruby_core_source (~> 1.2.3)
+      debugger-ruby_core_source (~> 1.2.4)
     debugger-linecache (1.2.0)
-    debugger-ruby_core_source (1.2.3)
+    debugger-ruby_core_source (1.2.4)
     erubis (2.7.0)
     factory_girl (4.2.0)
       activesupport (>= 3.0.0)
