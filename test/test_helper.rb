@@ -1,11 +1,15 @@
+require File.expand_path('../test_utils', __FILE__)
+
 require 'coveralls'
 Coveralls.wear!
 
 # Configure Rails Environment
 ENV['RAILS_ENV'] = 'test'
 
-require File.expand_path('../dummy/config/environment.rb',  __FILE__)
+require File.expand_path("../#{TestUtils.dummy_app_dir}/config/environment.rb",  __FILE__)
 require 'rails/test_help'
+
+puts "Rails #{Rails.version} is loaded"
 
 Rails.backtrace_cleaner.remove_silencers!
 
