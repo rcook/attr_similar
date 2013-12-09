@@ -4,6 +4,7 @@ rvm:
   - 2.0.0
 gemfile:
   - Gemfile.rails3
+  - Gemfile.rails4
 env:
   - DB=sqlite
 script:

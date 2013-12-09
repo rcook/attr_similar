@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     attr_similar (0.0.2)
-      rails (~> 3.2.14)
+      rails (>= 3.2.14)
 
 GEM
   remote: https://rubygems.org/
@@ -124,4 +124,5 @@ DEPENDENCIES
   debugger
   factory_girl_rails
   jquery-rails
+  rails (~> 3.2.14)
   sqlite3

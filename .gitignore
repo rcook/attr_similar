@@ -7,4 +7,8 @@ test/dummy-rails3/db/*.sqlite3
 test/dummy-rails3/log/*.log
 test/dummy-rails3/tmp/
 test/dummy-rails3/.sass-cache
+test/dummy-rails4/db/*.sqlite3
+test/dummy-rails4/log/*.log
+test/dummy-rails4/tmp/
+test/dummy-rails4/.sass-cache
 
