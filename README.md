@@ -8,7 +8,7 @@ Rails plugin that provides `attr_similar` helper to declare similarity-matching 
 
 # Rails support
 
-Works with Rails 3.2.x and Rails 4.0.x.
+`attr_similar` works with Rails 3.2.x and Rails 4.0.x and is tested against Ruby versions 1.9.3, 2.0.0 and 2.1.0.
 
 # Installation
 

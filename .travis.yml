@@ -2,11 +2,13 @@ language: ruby
 rvm:
   - 1.9.3
   - 2.0.0
+  - 2.1.0
 gemfile:
   - Gemfile.rails3
   - Gemfile.rails4
 env:
   - DB=sqlite
+before_install: gem install bundler -v=1.5.1
 script:
   - bundle exec rake test_db_reset
   - bundle exec rake test
