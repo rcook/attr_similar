@@ -14,6 +14,40 @@ Rails plugin that provides `attr_similar` helper to declare similarity-matching 
 
 Add `gem 'attr_similar'` to your Rails' `Gemfile` and run `bundle install`.
 
+# Contributing
+
+See [`.travis.yml`](https://github.com/rcook/attr_similar/blob/master/.travis.yml)
+for details of the commands that are run as part of the Travis-CI build of this project.
+The minimum bar for all push requests is that the Travis-CI build must pass. Please also
+consider adding new tests to cover any new functionality introduced into the project.
+
+To manually run the Travis-CI verification steps on your local machine, you can use the
+following sequence of commands for Rails 3.2.x:
+
+```bash
+# Ensure gem dependencies are installed
+BUNDLE_GEMFILE=Gemfile.rails3 bundle install
+# Reset database
+BUNDLE_GEMFILE=Gemfile.rails3 bundle exec rake test_db_reset
+# Run tests
+BUNDLE_GEMFILE=Gemfile.rails3 bundle exec rake test
+# Build the gem
+BUNDLE_GEMFILE=Gemfile.rails3 bundle exec gem build attr_similar.gemspec
+```
+
+To test against Rails 4.0.x, use:
+
+```bash
+# Ensure gem dependencies are installed
+BUNDLE_GEMFILE=Gemfile.rails4 bundle install
+# Reset database
+BUNDLE_GEMFILE=Gemfile.rails4 bundle exec rake test_db_reset
+# Run tests
+BUNDLE_GEMFILE=Gemfile.rails4 bundle exec rake test
+# Build the gem
+BUNDLE_GEMFILE=Gemfile.rails4 bundle exec gem build attr_similar.gemspec
+```
+
 # Licence
 
 `attr_similar` is released under the MIT licence.
