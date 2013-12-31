@@ -12,4 +12,5 @@ before_install: gem install bundler -v=1.5.1
 script:
   - bundle exec rake test_db_reset
   - bundle exec rake test
+  - bundle exec gem build attr_similar.gemspec
 
